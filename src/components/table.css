@@ -1,0 +1,41 @@
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blue;
+
+    color: white;
+}
+
+th,td{
+    border: 1px solid #d1d1d1;
+    padding: 8px;
+}
+
+table th{
+    text-align: center;
+}
+
+.filter{
+    position: absolute;
+    top: 20px;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Button{
+    margin: 10px;
+    margin-left: 41%;
+    display: flex;
+}
+
+table{
+    width: 100%;
+}
+
+td:hover{
+    background-color: aquamarine;
+}
